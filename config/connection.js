@@ -30,4 +30,26 @@ connection.connect(function(err) {
 // console.log("db connected as id " + connection.threadId);
 
 
+// connection.query(`
+// INSERT INTO burgers 
+// (burger_name) 
+// VALUES
+// ("Chipotle Burger"),
+// ("QUEBurger");
+
+
+// INSERT INTO burgers 
+// (burger_name,devoured) 
+// VALUES
+// ("Bacon Bacon Bacon Burger", TRUE);`,
+//     (err) => {
+//       if (err) {
+//         console.log('bruh...')
+//       }
+//     }
+//   )
+console.log("db connected as id " + connection.threadId);
+
+
+
 module.exports = connection;
